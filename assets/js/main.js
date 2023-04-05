@@ -1,4 +1,4 @@
-/**
+-/**
 * Template Name: Day
 * Updated: Mar 10 2023 with Bootstrap v5.2.3
 * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
@@ -174,7 +174,7 @@
   }
 
   /**
-   * Porfolio isotope and filter
+   * Porfolio isotope and filter aa
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
