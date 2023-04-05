@@ -5,14 +5,14 @@
   }
   
   body {
-    background-image: url('fondo2.jpg');
+    background-image: url('fondo4.jpeg');
     background-size: cover;
-    background-position: center;
+
   }
   
   .form-register {
     width: 400px;
-    background: #24303c;
+    background: #8b2929;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -29,11 +29,11 @@
   
   .controls {
     width: 100%;
-    background: #24303c;
+    background: #642d28;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #c5321f;
+    border: 1px solid #ffffff;
     font-family: 'calibri';
     font-size: 18px;
     color: white;
