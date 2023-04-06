@@ -277,6 +277,8 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Contacto ======= -->
+
+   <form action="/action_page.php" class="was-validated">  
     <section id="contact" class="contact">
       <div class="container">
 
@@ -323,30 +325,42 @@
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
+                  <div class="valid-feedback">Válido.</div>
+                  <div class="invalid-feedback">Este campo no puede quedar vacío.</div>
+
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" required>
+                  <div class="valid-feedback">Válido.</div>
+                  <div class="invalid-feedback">Este campo no puede quedar vacío.</div>
                 </div>
               </div>
               <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Este campo no puede quedar vacío.</div>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Este campo no puede quedar vacío.</div>
               </div>
-              <div class="my-3">
-                <div class="loading">Cargando</div>
-                <div class="error-message">Falta algún campo por rellenar</div>
-                <div class="sent-message">¡Tú mensaje de contacto ha sido enviado con éxito!</div>
+              <div class="text-center"><button type="submit">Enviar mensaje</button> </div>
+
               </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+
+              
             </form>
           </div>
 
         </div>
 
       </div>
-    </section><!-- Final Contacto -->
+    </section>
+    
+    </form> 
+    
+    <!-- Final Contacto -->
 
   </main><!-- End #main -->
 
